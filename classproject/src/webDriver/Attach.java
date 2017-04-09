@@ -19,6 +19,7 @@ public class Attach {
 		// TODO Auto-generated method stub
 		
 		//Comment to test push
+		System.out.println("Commit");
 		System.setProperty("webdriver.chrome", "D:\\chromedriver\\chromedriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
