@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite  name="priority1">
+	<test name="sample">
+		<classes>
+			<class name = "webDriver.NewTestNg"></class>
+			<methods>
+				<include name="f1"/>
+				<include name="f2"/>	
+			</methods>
+		</classes>
+	</test>
+	
+	<test name="sample2">
+		<classes>
+			<class name = "webDriver.NewTestNg2"></class>
+			<methods>
+				<include name="test_method1"/>
+				<include name="test_method2"/>	
+			</methods>
+		</classes>
+	</test>
+</suite>
